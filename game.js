@@ -1,4 +1,9 @@
 const messageButton = document.getElementById('generator');
 const message = document.getElementById('message');
 
-messageButton.addEventListener('click', () => message.innerText(formatMessage(generateMessage())));
+messageButton.addEventListener('click', function messageGen(){
+  const arrayMessage = generateMessage(); 
+  message.innerText(formatMessage(arrayMessage));
+}
+    
+                              );
