@@ -33,6 +33,6 @@ function generateMessage (){
   return personalWisdom;
 
 }
-const formatMessage = array => console.log(array.join('\n'));
+const formatMessage = array => array.join('\n');
 
 formatMessage(generateMessage());
